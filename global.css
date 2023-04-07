@@ -1,0 +1,57 @@
+body {
+    font-family: "Courier New", Courier, monospace;
+  }
+
+.overflow {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.overflow .card-img-top {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(100%);
+}
+
+.overflow .card-img-top:hover {
+    transform: scale(1.8);
+    filter: none;
+}
+
+.nav-link {
+    color: grey;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.img-fluid {
+    border-radius: 10%;
+}
+
+.navbar-toggler[aria-expanded='true']:focus {
+    outline: none;
+    box-shadow: none;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 25%;
+    transition: 0.5s ease-in-out;
+}
+
+.navbar-toggler[aria-expanded='false']:focus {
+    outline: none;
+    box-shadow: none;
+    transition: 0.5s ease-in-out;
+}
+
+.bg-success {
+    background-color: rgb(0, 150, 80) !important;
+}
+
+.border-success {
+    background-color: rgb(0, 150, 80) !important;
+}
