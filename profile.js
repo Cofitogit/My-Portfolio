@@ -51,11 +51,18 @@ export const experiences = [
 
 export const projects = [
   {
-    title: 'React Cards | Bootstrap',
+    title: 'El Deleit',
+    description:
+      "Next.js app for managing payments and tickets, powered by MySQL. Create and track pending payments, generate reports. Efficient and organized solution for businesses.",
+    img: 'https://i.ibb.co/djSphwn/eldeleit1.jpg',
+    url: '/eldeleit',
+  },
+  {
+    title: 'Bootstrap Cards',
     description:
       "This is a practical example of React using Bootstrap where cards were created to demonstrate how design works and also the use of components with Props in React. It's more of a Frontend, CSS, and React example for beginners.",
     img: 'https://i.ibb.co/t88x4gL/first.png',
-    url: '/reactcards',
+    url: 'https://cofitogit.github.io/react-card-bootstrap/',
   },
   {
     title: 'React movies TMDb API',
@@ -65,7 +72,7 @@ export const projects = [
     url: '/reactmovies',
   },
   {
-    title: 'Vite & React | Task APP',
+    title: 'Task APP',
     description:
       "Vite, a JavaScript tool that allows us to create projects, have a development server, and build our web applications. In this case, it's used to create a task app using React.",
     img: 'https://i.ibb.co/LPZkprP/third.png',

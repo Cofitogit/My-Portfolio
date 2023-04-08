@@ -8,8 +8,8 @@ body {
     height: 100%;
 }
 
-.overflow .card-img-top {
-    transform: scale(1.1);
+.overflow #cardImg {
+    transform: scale(1);
     transition: all 0.3s ease-in-out;
     width: 100%;
     height: 100%;
@@ -17,9 +17,12 @@ body {
     filter: grayscale(100%);
 }
 
-.overflow .card-img-top:hover {
-    transform: scale(1.8);
+#project:hover #cardImg {
     filter: none;
+}
+
+#project:hover .overflow {
+    overflow: visible;
 }
 
 .nav-link {
@@ -53,5 +56,28 @@ body {
 }
 
 .border-success {
-    background-color: rgb(0, 150, 80) !important;
+    background-color: rgb(0, 73, 39) !important;
+    border-color: red;
+    color: red;
+    box-shadow: 0 0 2px 2px green;
 }
+
+#project:hover {
+    box-shadow: 0 0 5px 3px white;
+    transition: 0.2s ease-in-out;
+}
+
+#clickMe {
+    opacity: 0;
+}
+
+#project:hover .card-body #clickMe {
+    opacity: 1;
+    transition: 0.15s ease-in-out;
+}
+
+.readMoreContent {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out; /* tiempo y easing de la animación */
+  }
