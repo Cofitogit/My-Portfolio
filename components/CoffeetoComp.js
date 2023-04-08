@@ -13,7 +13,7 @@ export function CoffeetoComp() {
         <hr />
         <div className='col-md-6 mx-auto border border-light rounded' style={{overflow: "hidden"}}>
           <video controls style={{objectFit: "cover", width: "100%"}}>
-            <source src="https://cofitogit.github.io/carlosaguero/videos/coffeto.mp4" type='video/mp4' />
+            <source src="https://cofitogit.github.io/carlosaguero/videos/coffeeto.mp4" type='video/mp4' />
             {/* Puedes agregar más formatos de video aquí, como .webm o .ogg */}
             Tu navegador no admite la reproducción de videos.
           </video>
