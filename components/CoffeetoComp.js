@@ -1,4 +1,4 @@
-export function EldeleitComp() {
+export function CoffeetoComp() {
     return (
       <div className='d-grid justify-content-center'>
         <div className='mx-3'>
