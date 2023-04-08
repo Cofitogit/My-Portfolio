@@ -1,5 +1,3 @@
-import Link from 'next/link';
-
 export function EldeleitComp() {
   return (
     <div className='d-grid justify-content-center'>

@@ -2,11 +2,11 @@ import { Back } from '../components/Back';
 import { EldeleitComp } from '../components/EldeleitComp';
 import Layout from '../components/Layout';
 
-const vitetask = () => (
+const eldeleit = () => (
   <Layout>
     <EldeleitComp />
     <Back />
   </Layout>
 );
 
-export default vitetask;
+export default eldeleit;

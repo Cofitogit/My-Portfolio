@@ -51,11 +51,25 @@ export const experiences = [
 
 export const projects = [
   {
+    title: 'CoffeeTo',
+    description:
+      "Vue3 app replicating user experience in social media using bcrypt, jsonwebtoken, mysql2, openai, express & axios for user auth, data storage, HTTP handling.",
+    img: 'https://i.ibb.co/KKNXRFw/coffee1.jpg',
+    url: '/coffeeto',
+  },
+  {
     title: 'El Deleit',
     description:
       "Next.js app for managing payments and tickets, powered by MySQL. Create and track pending payments, generate reports. Efficient and organized solution for businesses.",
     img: 'https://i.ibb.co/djSphwn/eldeleit1.jpg',
     url: '/eldeleit',
+  },
+  {
+    title: 'Django task app',
+    description:
+      "Django-powered app for user creation & task management. Easy registration, creation, updating & listing of tasks. Boost productivity & organization in any work environment.",
+    img: 'https://i.ibb.co/KzYDv9Q/django3.png',
+    url: '/djangotask',
   },
   {
     title: 'Bootstrap Cards',
