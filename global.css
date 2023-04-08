@@ -26,11 +26,11 @@ body {
 }
 
 .nav-link {
-    color: grey;
+    color: rgb(255, 255, 255);
 }
 
 .nav-link:hover {
-    color: white;
+    color: rgb(0, 196, 16);
 }
 
 .img-fluid {
