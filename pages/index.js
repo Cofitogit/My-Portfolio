@@ -30,7 +30,7 @@ const Index = () => {
                 <h3 className='fw-lighter'>Front-end developer</h3>
                 <h3 className='fw-lighter text-success'>
                   {' '}
-                  ReactJS | Vue.js | node
+                  ReactJS | Vue.js | Node.js
                 </h3>
                 <p>
                   I am a passionate developer with experience in technologies
@@ -41,13 +41,14 @@ const Index = () => {
               </div>
               <div className='col-md-12 px-4 text-center'>
                 <p>
-                  One of my notable projects is a real-time social media
-                  application inspired by Instagram and Reddit, where I work on
-                  implementing a content sharing platform among users. I used
-                  technologies such as Bootstrap 5, MySQL for the database, and
-                  Express as the server for the REST API. I implemented features
-                  such as user registration, login, creation and management of
-                  posts, comments, user tracking, and content voting system.
+                  One of my noteworthy projects is a real-time social media
+                  application inspired by Instagram and Reddit, where I focus on
+                  implementing a content sharing platform among users. I
+                  utilized technologies such as Bootstrap 5, MySQL for the
+                  database, and Express as the server for the REST API. I'm
+                  currently working on features such as user registration,
+                  login, creation and management of posts, comments, user
+                  tracking, and content voting system.
                 </p>
                 <div
                   className={`readMoreContent ${readMore ? 'expanded' : ''}`}
@@ -72,13 +73,14 @@ const Index = () => {
                     constant support from them to ensure a high-quality outcome.
                   </p>
                   <p>
-                    I am proud to have created a functional and scalable
-                    application that provides a unique social media experience
-                    to users and the incorporation of a virtual assistant based
-                    on the OpenAI API to enhance the user experience. I am
-                    excited to continue exploring new technologies and exciting
-                    challenges in web development and artificial intelligence in
-                    my future projects!
+                    This project was initiated in April 2023, and I take pride
+                    in creating a functional and scalable application that
+                    delivers a unique social media experience to users.
+                    Additionally, I have incorporated a virtual assistant based
+                    on the OpenAI API to enhance the overall user experience. I
+                    am enthusiastic about continuing to explore new technologies
+                    and exciting challenges in web development and artificial
+                    intelligence in my future projects!
                   </p>
                 </div>
                 <button className='btn text-success' onClick={handleReadMore}>
