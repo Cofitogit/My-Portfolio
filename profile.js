@@ -43,7 +43,7 @@ export const experiences = [
   {
     title: 'Experience',
     description:
-      'I am a self-taught web development enthusiast with a strong passion for React. I have independently learned web development and have a broad knowledge of various libraries and frameworks. I have improved my skills through community documentation and free online courses. I am able to work independently and have effective problem-solving skills. I am always looking to learn more and improve in the field of web development.',
+      'I am a self-taught web development enthusiast with a strong passion for React and Vue. I have independently acquired knowledge in various frameworks and libraries. Moreover, I have excellent teamwork skills, which I consider essential in the world of web development. I have improved my skills through community documentation and free online courses. I am capable of working effectively both independently and in a team, with strong problem-solving skills. I am always seeking opportunities to learn and improve in the field of web development.',
     from: 2022,
     to: 2023,
   },

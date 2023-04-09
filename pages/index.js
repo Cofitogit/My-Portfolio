@@ -23,9 +23,10 @@ const Index = () => {
                   src='https://i.ibb.co/SVsvN4b/profile.jpg'
                   alt=''
                   className='img-fluid p-4'
+                  id='profileImg'
                 />
               </div>
-              <div className='col-md-8 p-4 d-grid'>
+              <div className='col-md-8 p-4 d-grid' id='profileStats'>
                 <h1 className='fw-light'>Carlos Enrique Agüero</h1>
                 <h3 className='fw-lighter'>Front-end developer</h3>
                 <h3 className='fw-lighter text-success'>
