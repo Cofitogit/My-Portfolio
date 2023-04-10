@@ -46,6 +46,13 @@ export const experiences = [
       'I am a self-taught web development enthusiast with a strong passion for React and Vue. I have independently acquired knowledge in various frameworks and libraries. Moreover, I have excellent teamwork skills, which I consider essential in the world of web development. I have improved my skills through community documentation and free online courses. I am capable of working effectively both independently and in a team, with strong problem-solving skills. I am always seeking opportunities to learn and improve in the field of web development.',
     from: 2022,
     to: 2023,
+  }, 
+   {
+    title: 'Merchant company.',
+    description:
+      "My parents' businesses, with a focus on close interaction with employees, teamwork, and high responsibility in task execution.",
+    from: 2013,
+    to: 2021,
   },
 ];
 

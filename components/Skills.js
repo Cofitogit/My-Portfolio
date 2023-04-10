@@ -1,7 +1,7 @@
 import { skills } from '../profile';
 
 export const Skills = () => (
-  <>
+  <div className='py-5'>
     {skills.map(({ skill, percentage }, i) => (
       <div className='px-4 text-light d-grid py-4 gap-3' key={i}>
         <h5 className='fw-light'>{skill}</h5>
@@ -14,5 +14,5 @@ export const Skills = () => (
         </div>
       </div>
     ))}
-  </>
+  </ div>
 );

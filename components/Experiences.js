@@ -6,12 +6,12 @@ export const Experiences = () => (
       <li key={index}>
         <h3>{title}</h3>
         <div className='d-flex justify-content-start'>
-          <h6 className='bg-light text-dark fw-bold px-1 rounded mb-3'>
+          <h6 className='bg-light text-dark fw-bold px-1 rounded'>
           {from ? from : 'Finalizado'} - {from ? (to ? to : 'Actualidad') : ''}
           </h6>
         </div>
         <p className='text-light fw-lighter'>{description}</p>
-        <hr className='py-1'/>
+        <hr />
       </li>
     ))}
   </ul>
