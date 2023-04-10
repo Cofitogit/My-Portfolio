@@ -8,7 +8,7 @@ export function CoffeetoComp() {
         </div>
         <hr />
         <p className='text-center text-light my-3 card bg-success p-2 rounded'>
-        In summary, this Vue 3 application utilizes popular web development technologies such as bcrypt, jsonwebtoken, mysql2, openai, express, and axios to build a social media application replicating functionalities from popular platforms like Instagram and Reddit. These technologies are used to handle user authentication and authorization, store and manage data in a database, handle HTTP requests and responses, and make HTTP requests from the client to the server's REST API.
+        In summary, this Vue application utilizes popular web development technologies such as bcrypt, jsonwebtoken, mysql2, openai, express, and axios to build a social media application replicating functionalities from popular platforms like Instagram and Reddit. These technologies are used to handle user authentication and authorization, store and manage data in a database, handle HTTP requests and responses, and make HTTP requests from the client to the server's REST API.
         </p>
         <hr />
         <div className='col-md-6 mx-auto border border-light rounded' style={{overflow: "hidden"}}>

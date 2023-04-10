@@ -43,7 +43,7 @@ export const experiences = [
   {
     title: 'Experience',
     description:
-      'I am a self-taught web development enthusiast with a strong passion for React and Vue. I have independently acquired knowledge in various frameworks and libraries. Moreover, I have excellent teamwork skills, which I consider essential in the world of web development. I have improved my skills through community documentation and free online courses. I am capable of working effectively both independently and in a team, with strong problem-solving skills. I am always seeking opportunities to learn and improve in the field of web development.',
+      'I am a self-taught web development enthusiast with a strong passion for React and Vue. I have independently acquired knowledge in various frameworks and libraries. Moreover, I have excellent teamwork skills, which I consider essential in the world of web development. I have improved my skills through community documentation and online courses. I am capable of working effectively both independently and in a team, with strong problem-solving skills. I am always seeking opportunities to learn and improve in the field of web development.',
     from: 2022,
     to: 2023,
   }, 
@@ -60,7 +60,7 @@ export const projects = [
   {
     title: 'CoffeeTo',
     description:
-      "Vue3 app replicating user experience in social media using bcrypt, jsonwebtoken, mysql2, openai, express & axios for user auth, data storage, HTTP handling.",
+      "Vue3 app replicating user experience in social media using bcrypt, jsonwebtoken, mysql2, openai, express & axios for user auth, data storage, a decently complex rest API.",
     img: 'https://i.ibb.co/KKNXRFw/coffee1.jpg',
     url: '/coffeeto',
   },
@@ -77,13 +77,6 @@ export const projects = [
       "Django-powered app for user creation & task management. Easy registration, creation, updating & listing of tasks. Boost productivity & organization in any work environment.",
     img: 'https://i.ibb.co/KzYDv9Q/django3.png',
     url: '/djangotask',
-  },
-  {
-    title: 'Bootstrap Cards',
-    description:
-      "This is a practical example of React using Bootstrap where cards were created to demonstrate how design works and also the use of components with Props in React. It's more of a Frontend, CSS, and React example for beginners.",
-    img: 'https://i.ibb.co/t88x4gL/first.png',
-    url: 'https://cofitogit.github.io/react-card-bootstrap/',
   },
   {
     title: 'React movies TMDb API',

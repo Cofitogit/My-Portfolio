@@ -3,8 +3,11 @@ import Link from 'next/link';
 const Navbar = () => (
   <nav className='navbar navbar-expand-lg bg-dark'>
     <div className='container'>
-      <Link className='navbar-brand text-white' href='/'>
+      <Link className='navbar-brand d-flex align-items-center text-white' href='/'>
         Portfolio | Home
+        <span className='ms-2 material-icons' style={{ lineHeight: 0 }}>
+          coffee
+        </span>
       </Link>
       <button
         className='navbar-toggler'
@@ -25,7 +28,10 @@ const Navbar = () => (
             </Link>
           </li>
           <li className='nav-item'>
-            <Link className='nav-link' href='https://www.linkedin.com/in/aguero-ce-dev/'>
+            <Link
+              className='nav-link'
+              href='https://www.linkedin.com/in/aguero-ce-dev/'
+            >
               LinkedIn
             </Link>
           </li>

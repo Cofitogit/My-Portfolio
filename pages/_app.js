@@ -2,6 +2,7 @@ import 'bootswatch/dist/cosmo/bootstrap.min.css';
 import Head from 'next/head';
 import Script from 'next/script';
 import '../global.css';
+import 'material-icons/iconfont/material-icons.css';
 
 export default function MyApp({ Component, pageProps }) {
   return (

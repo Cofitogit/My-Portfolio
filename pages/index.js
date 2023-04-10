@@ -1,6 +1,6 @@
 import { Experiences } from '../components/Experiences';
 import Layout from '../components/Layout';
-import { Skills } from '../components/Skills';
+import Skills from '../components/Skills';
 import { Projects } from '../components/Projects';
 import { useState } from 'react';
 
@@ -27,17 +27,20 @@ const Index = () => {
                 />
               </div>
               <div className='col-md-8 p-4 d-grid' id='profileStats'>
-                <h1 className='fw-light'>Carlos Enrique Agüero</h1>
-                <h3 className='fw-lighter'>Front-end developer</h3>
-                <h3 className='fw-lighter text-success'>
-                  {' '}
-                  ReactJS | Vue.js | Node.js
-                </h3>
+                    <h1 className='fw-light'>Carlos Enrique Agüero</h1>
+                    <h3 className='fw-lighter'>Front-end developer</h3>
+                    <h3 className='fw-lighter text-success'>
+                      {' '}
+                      ReactJS | Vue.js | Node.js
+                    </h3>
                 <p>
-                  I am a passionate developer with experience in technologies
-                  such as ReactJS and Vue3. With a focus on following best
-                  practices and documentation recommendations, I always strive
-                  to create clean, readable, and high-quality code.
+                  I am a highly motivated developer with extensive experience in
+                  working with reactive frontend frameworks such as ReactJS and
+                  Vue.js. I am committed to adhering to best practices and
+                  following documentation recommendations to ensure the creation
+                  of clean, readable, and high-quality code I have a strong
+                  ability to quickly learn and adapt to changing environments,
+                  making me a versatile and adaptable developer.
                 </p>
               </div>
               <div className='col-md-12 px-4 text-center'>
@@ -97,12 +100,14 @@ const Index = () => {
 
       <div className='row py-2'>
         <div className='col-md-4'>
-          <div className='card bg-success h-100'>
-            <div className='card-body text-center'>
-              <h2 className='bg-dark rounded text-light fw-lighter py-2'>
+          <div className='card bg-success' style={{ height: '100%' }}>
+            <div className='card-body text-center d-grid'>
+              <h2
+                className='bg-dark rounded text-light fw-lighter py-2'
+                style={{ height: 'fit-content' }}
+              >
                 Skills
               </h2>
-
               <Skills />
             </div>
           </div>
