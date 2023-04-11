@@ -11,7 +11,7 @@ body::after {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url('/images/cafe2.avif');
+  background-image: url('https://cofitogit.github.io/carlosaguero/images/cafe2.avif');
   background-repeat: repeat;
   background-size: 15%; /* Ajusta el tamaño según tus preferencias */
   filter: contrast(0.7);
@@ -138,10 +138,36 @@ body::after {
   #profileStats {
     text-align: center;
   }
+
+  .bg-coffee {
+    background-color: rgb(56, 35, 16) !important;
+    backdrop-filter: unset !important;
+    filter: unset !important;
+  }
+
+  body::after {
+    background-image: none;
+    content: none;
+    position: none;
+    background-repeat: none;
+    background-size: none; /* Ajusta el tamaño según tus preferencias */
+    filter: none;
+  }
+
+  #project:hover {
+    box-shadow: unset !important;
+    border: 1px solid white;
+    transition: unset !important;
+  }
+
+  #profileImg {
+    border-radius: 8%;
+    filter: unset;
+  }
 }
 
 .bg-coffee {
-  background-color: rgba(34, 20, 7, 0.5) !important;
+  background-color: rgba(34, 20, 7, 0.5);
   backdrop-filter: blur(5px);
   filter: drop-shadow(2px 2px 2px black);
 

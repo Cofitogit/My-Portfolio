@@ -48,7 +48,7 @@ export default function Skills() {
           constant updating of my skills in the field of backend development.
         </p>
       </div>
-      <button className='btn btn-outline-light mb-3 align-self-end' onClick={handleAboutBack}>
+      <button className='btn btn-outline-light mb-3 align-self-end w-75 position-relative rounded' style={{left: "50%", transform: "translateX(-50%)"}} onClick={handleAboutBack}>
         {aboutBack ? 'about backend' : 'hide'}
       </button>
     </>
