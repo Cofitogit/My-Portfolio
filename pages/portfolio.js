@@ -6,7 +6,7 @@ const Portfolio = () => (
   <Layout>
     <div className='row'>
       <div className='col-md-12'>
-        <div className='card card-body bg-dark'>
+        <div className='card card-body bg-coffee'>
           <div className='row'>
             <div className='col-md-12'>
               <h2 className='text-center text-light fw-lighter py-1'>

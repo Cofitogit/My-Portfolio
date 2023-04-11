@@ -2,12 +2,12 @@ export function CoffeetoComp() {
     return (
       <div className='d-grid justify-content-center'>
         <div className='mx-3'>
-          <h1 className='fw-light text-success text-center'>
+          <h1 className='fw-light text-success text-center bg-black bg-opacity-50 p-3 rounded rounded-4'>
             CoffeeTo social media | Vue.js
           </h1>
         </div>
         <hr />
-        <p className='text-center text-light my-3 card bg-success p-2 rounded'>
+        <p className='text-center text-light my-3 card bg-coffee p-2 rounded'>
         In summary, this Vue application utilizes popular web development technologies such as bcrypt, jsonwebtoken, mysql2, openai, express, and axios to build a social media application replicating functionalities from popular platforms like Instagram and Reddit. These technologies are used to handle user authentication and authorization, store and manage data in a database, handle HTTP requests and responses, and make HTTP requests from the client to the server's REST API.
         </p>
         <hr />

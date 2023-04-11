@@ -7,12 +7,12 @@ export function ViteTaskComp() {
   return (
     <div className='d-grid justify-content-center'>
       <div className='mx-3'>
-        <h1 className='fw-light text-success text-center'>
+        <h1 className='fw-light text-success text-center bg-black bg-opacity-50 p-3 rounded rounded-4'>
           Vite & React | Task APP
         </h1>
       </div>
       <hr />
-      <p className='text-center text-light my-3 card bg-success p-2 rounded'>{text}</p>
+      <p className='text-center text-light my-3 card bg-coffee p-2 rounded'>{text}</p>
       <hr />
       <div className='col-md-8 mx-auto border border-light rounded'>
         <img
@@ -21,10 +21,10 @@ export function ViteTaskComp() {
         />
       </div>
       <hr />
-      <button className='btn btn-light w-50 mt-3 mx-auto rounded'>
+      <button className='btn btn-dark w-50 mt-3 mx-auto rounded'>
         <Link
           href='https://cofitogit.github.io/react-vite-tasks/'
-          className='nav-link text-dark'
+          className='nav-link text-light fw-bolder'
         >
           GitHub Pages
         </Link>

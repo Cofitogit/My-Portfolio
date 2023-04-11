@@ -2,12 +2,12 @@ export function DjangoComp() {
   return (
     <>
       <div className='mx-3'>
-        <h1 className='fw-light text-success text-center'>
+        <h1 className='fw-light text-success text-center bg-black bg-opacity-50 p-3 rounded rounded-4'>
           Eldeleit | Next.js app for payments
         </h1>
       </div>
       <hr />
-      <p className='text-center text-light my-3 card bg-success p-2 rounded'>
+      <p className='text-center text-light my-3 card bg-coffee p-2 rounded'>
         This application built with Django offers a complete solution for user
         creation and task management. Users can easily and quickly register,
         create, update, and list tasks to be completed. With an intuitive
