@@ -4,6 +4,7 @@ import Skills from '../components/Skills';
 import { Projects } from '../components/Projects';
 import { useState } from 'react';
 
+
 const Index = () => {
   const [readMore, setReadMore] = useState(false);
 
@@ -16,7 +17,7 @@ const Index = () => {
       {/** header card */}
       <header className='row'>
         <div className='col-md-12'>
-          <div className='card card-body bg-secondary text-light'>
+          <div className='card card-body bg-coffee text-light rounded rounded-4'>
             <div className='row'>
               <div className='col-md-4 d-grid align-items-center'>
                 <img
@@ -100,10 +101,10 @@ const Index = () => {
 
       <div className='row py-2'>
         <div className='col-md-4'>
-          <div className='card bg-success' style={{ height: '100%' }}>
+          <div className='card bg-coffee rounded rounded-4' style={{ height: '100%' }}>
             <div className='card-body text-center d-grid'>
               <h2
-                className='bg-dark rounded text-light fw-lighter py-2'
+                className='bg-black rounded text-light fw-lighter py-2'
                 style={{ height: 'fit-content' }}
               >
                 Skills
@@ -113,9 +114,9 @@ const Index = () => {
           </div>
         </div>
         <div className='col-md-8'>
-          <div className='card bg-success h-100'>
+          <div className='card bg-coffee h-100 rounded rounded-4'>
             <div className='card-body'>
-              <h2 className='text-center bg-dark rounded text-light fw-lighter py-2'>
+              <h2 className='text-center bg-black rounded text-light fw-lighter py-2'>
                 Info
               </h2>
 
@@ -129,7 +130,7 @@ const Index = () => {
 
       <div className='row'>
         <div className='col-md-12'>
-          <div className='card card-body bg-dark rounded-bottom'>
+          <div className='card card-body bg-coffee rounded rounded-4'>
             <div className='row'>
               <div className='col-md-12'>
                 <h2 className='text-center text-light fw-lighter py-1'>

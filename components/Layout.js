@@ -15,7 +15,7 @@ const Layout = ({ children }) => {
 
       <main className='container py-4'>{children}</main>
 
-      <footer className='bg-dark text-light text-center'>
+      <footer className='bg-coffee text-light text-center'>
         <div className='container py-3'>
           <h3 className='fw-lighter'>&copy; cofitodev Portfolio</h3>
           <p>2022 - {new Date().getFullYear()}</p>

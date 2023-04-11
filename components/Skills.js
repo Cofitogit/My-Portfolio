@@ -21,7 +21,7 @@ export default function Skills() {
             <h5 className='fw-light'>{skill}</h5>
             <div className='progress'>
               <div
-                className='progress-bar bg-dark'
+                className='progress-bar bg-success'
                 role='progressbar'
                 style={{ width: `${percentage}%` }}
               ></div>
@@ -31,7 +31,7 @@ export default function Skills() {
       </div>
       <div id='aboutBack'>
         <p
-          className='text-center text-light align-self-center bg-secondary'
+          className='text-center text-light align-self-center bg-black'
           style={{
             opacity: aboutBack ? '0' : '1',
             top: aboutBack ? '1000px' : '85px',
