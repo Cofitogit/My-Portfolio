@@ -32,7 +32,7 @@ export function EsteticaComp() {
       >
         <video controls style={{ objectFit: 'fill', maxHeight: "600px" }}>
           <source
-            src='https://github.com/Cofitogit/angular-estetic-app/videos/cosmetica.mp4'
+            src='https://cofitogit.github.io/carlosaguero/videos/cosmetica.mp4'
             type='video/mp4'
           />
           {/* Puedes agregar más formatos de video aquí, como .webm o .ogg */}
