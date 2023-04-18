@@ -1,6 +1,6 @@
 export function DjangoComp() {
   return (
-    <>
+    <div className=" p-3 rounded rounded-4 bg-black bg-opacity-75" id="mainPage">
       <div className='mx-3'>
         <h1 className='fw-light text-success text-center bg-black bg-opacity-50 p-3 rounded rounded-4'>
           Eldeleit | Next.js app for payments
@@ -84,6 +84,6 @@ export function DjangoComp() {
           <span className='visually-hidden'>Next</span>
         </a>
       </div>
-    </>
+    </ div>
   );
 }

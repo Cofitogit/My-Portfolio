@@ -1,13 +1,13 @@
 export function EldeleitComp() {
   return (
-    <div className='d-grid justify-content-center'>
+    <div className='d-grid justify-content-center p-3 rounded rounded-4 bg-black bg-opacity-75' id="mainPage">
       <div className='mx-3'>
         <h1 className='fw-light text-success text-center bg-black bg-opacity-50 p-3 rounded rounded-4'>
           Eldeleit | Next.js app for payments
         </h1>
       </div>
       <hr />
-      <p className='text-center text-light my-3 card bg-coffee p-2 rounded'>
+      <p className='text-center text-light my-3 card bg-coffee p-2 rounded col-md-10 mx-auto'>
         In this case, I was asked to create an efficient and user-friendly tool
         for a business that wants to manage and keep accurate track of pending
         payments from their customers. With an intuitive user interface, this
@@ -15,14 +15,14 @@ export function EldeleitComp() {
         management.
       </p>
       <hr />
-      <p className='text-center text-light my-3 card bg-coffee p-2 rounded'>
+      <p className='text-center text-light my-3 card bg-coffee p-2 rounded col-md-10 mx-auto'>
         The application utilizes Next.js, a React-based web development
         framework, enabling fast page loading and a smooth and responsive user
         experience. Additionally, it integrates with a MySQL database for secure
         and scalable storage of customer data and pending payments.
       </p>
       <hr />
-      <p className='text-center text-light my-3 card bg-coffee p-2 rounded'>
+      <p className='text-center text-light my-3 card bg-coffee p-2 rounded col-md-10 mx-auto'>
         The Next.js API is implemented to handle backend functions, allowing
         efficient and secure communication between the frontend and server. The
         main features of the application include creation and management of
@@ -31,7 +31,7 @@ export function EldeleitComp() {
         payments.
       </p>
       <hr />
-      <div className='col-md-6 mx-auto border border-light rounded' style={{overflow: "hidden"}}>
+      <div className='col-md-4 mx-auto border border-dark rounded-4 rounded' style={{overflow: "hidden"}}>
         <video controls style={{objectFit: "cover", width: "100%"}}>
           <source src="https://cofitogit.github.io/carlosaguero/videos/eldeleitapp.mp4" type='video/mp4' />
           {/* Puedes agregar más formatos de video aquí, como .webm o .ogg */}

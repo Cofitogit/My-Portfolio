@@ -26,7 +26,6 @@ body::after {
 
 .overflow #cardImg {
   transform: scale(1);
-  transition: all 0.3s ease-in-out;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -39,6 +38,10 @@ body::after {
 
 #project:hover .overflow {
   overflow: visible;
+}
+
+#project {
+  cursor: pointer;
 }
 
 .nav-link {
@@ -88,8 +91,7 @@ body::after {
 }
 
 #project:hover {
-  box-shadow: 0 0 5px 3px rgb(172, 112, 23);
-  transition: 0.2s ease-in-out;
+  box-shadow: 0 2px 3px 3px rgb(172, 112, 23);
   background: rgb(131, 98, 0);
   background: linear-gradient(
     0deg,
@@ -203,4 +205,8 @@ body::after {
   --primary: #5a3c2046;
   --secondary: rgba(136, 98, 62, 0.63);
   --tertiary: rgb(94, 45, 0);
+}
+
+#mainPage {
+  backdrop-filter: blur(5px);
 }
