@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import Navbar from './Navbar';
 import { useRouter } from 'next/router';
 
-const Layout = ({ children }) => {
+const Layout = ({ children, language }) => {
   const router = useRouter();
 
   useEffect(() => {
@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Navbar />
+      <Navbar language={language} />
 
       <main className='container py-4'>{children}</main>
 

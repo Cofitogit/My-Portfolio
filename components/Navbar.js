@@ -1,10 +1,10 @@
 import Link from 'next/link';
 
-const Navbar = () => (
+const Navbar = ({language}) => (
   <nav className='navbar navbar-expand-lg bg-coffee'>
     <div className='container'>
       <Link className='navbar-brand d-flex align-items-center text-white' href='/'>
-        Portfolio | Home
+        {language ? "Portafolios | Inicio" : "Portfolio | Home" }
         <span className='ms-2 material-icons' style={{ lineHeight: 0 }}>
           coffee
         </span>
@@ -23,7 +23,7 @@ const Navbar = () => (
       <div className='collapse navbar-collapse' id='navbarNav'>
         <ul className='navbar-nav ms-auto'>
           <li className='nav-item'>
-            <Link className='nav-link' href='https://github.com/Cofitogit'>
+            <Link className='nav-link' href='https://github.com/Cofitogit' target="_blank">
               GitHub
             </Link>
           </li>
@@ -31,13 +31,14 @@ const Navbar = () => (
             <Link
               className='nav-link'
               href='https://www.linkedin.com/in/aguero-ce-dev/'
+              target="_blank"
             >
               LinkedIn
             </Link>
           </li>
           <li className='nav-item'>
-            <Link className='nav-link' href='/portfolio'>
-              Projects
+            <Link className='nav-link' href='/portfolio' >
+            {language ? "Proyectos" : "Projects" }
             </Link>
           </li>
         </ul>
