@@ -37,6 +37,13 @@ export const experiences = [
 
 export const projects = [
   {
+    title: 'Jw buildings app',
+    description:
+      ['Web application to manage visits to apartments in territories of a city in Córdoba, Argentina.', "Aplicación web para gestionar visitas a departamentos en territorios de una ciudad de Córdoba, Argentina."],
+    img: 'https://i.ibb.co/7V9rNHL/jwapp.png',
+    url: '/ediapp',
+  },
+  {
     title: 'A.M Estética',
     description:
       ['Esthetic Appointments: An appointment booking application for aesthetic treatments, which allows users to select convenient treatments, dates and time slots. As well as advice with the best practices for skin care.', "Estética: una aplicación de reserva de turnos para tratamientos estéticos, que permite a los usuarios seleccionar tratamientos, fechas y franjas horarias convenientes. Como también consejos con las mejores practicas para el cuidado de la piel."],
