@@ -42,7 +42,7 @@ const eldeleit = () => {
         >
           <video controls style={{ objectFit: 'fill', maxHeight: '600px' }}>
             <source
-              src='https://cofitogit.github.io/carlosaguero/videos/jwapp.mp4'
+              src='https://cofitogit.github.io/My-Portfolio/videos/jwapp.mp4'
               type='video/mp4'
             />
             {/* Puedes agregar más formatos de video aquí, como .webm o .ogg */}

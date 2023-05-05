@@ -42,7 +42,7 @@ export function EsteticaComp({ language }) {
       >
         <video controls style={{ objectFit: 'fill', maxHeight: '600px' }}>
           <source
-            src='https://cofitogit.github.io/carlosaguero/videos/cosmetica.mp4'
+            src='https://cofitogit.github.io/My-Portfolio/videos/cosmetica.mp4'
             type='video/mp4'
           />
           {/* Puedes agregar más formatos de video aquí, como .webm o .ogg */}
@@ -52,7 +52,7 @@ export function EsteticaComp({ language }) {
       <hr />
       <button className='btn btn-dark w-50 mt-3 mx-auto rounded'>
         <Link
-          href='https://github.com/Cofitogit/angular-estetic-app'
+          href='https://github.com/Cofitogit/A.M-Estetica'
           className='nav-link text-light fw-bolder'
         >
           GitHub Pages

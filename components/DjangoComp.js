@@ -24,7 +24,7 @@ export function DjangoComp({ language }) {
       >
         <video controls style={{ objectFit: 'fill', maxHeight: '600px' }}>
           <source
-            src='https://cofitogit.github.io/carlosaguero/videos/djangoapp.mp4'
+            src='https://cofitogit.github.io/My-Portfolio/videos/djangoapp.mp4'
             type='video/mp4'
           />
           {/* Puedes agregar más formatos de video aquí, como .webm o .ogg */}
