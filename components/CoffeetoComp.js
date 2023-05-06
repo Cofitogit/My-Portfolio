@@ -35,7 +35,7 @@ export function CoffeetoComp({ language }) {
       >
         <video controls style={{ objectFit: 'cover', width: '100%' }}>
           <source
-            src='https://cofitogit.github.io/carlosaguero/videos/coffeeto.mp4'
+            src='https://cofitogit.github.io/My-Portfolio/videos/coffeeto.mp4'
             type='video/mp4'
           />
           {/* Puedes agregar más formatos de video aquí, como .webm o .ogg */}

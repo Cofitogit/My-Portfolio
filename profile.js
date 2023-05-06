@@ -20,11 +20,10 @@ export const experiences = [
   {
     title: 'Freelancer | Full Stack Developer',
     description: [
-      'As a freelancer, I specialize in creating web and mobile applications using a wide variety of tools and technologies, including React, Vue, Express, Django, MySQL, and MongoDB. I am able to quickly adapt to new technologies and am always looking for new challenges to improve my technical and problem-solving skills. I am committed to the success of each project and work closely with my clients to meet their needs and objectives. Currently, I am focusing on learning mobile development and backend to enhance my experience and skills.',
-      'Como freelancer, me especializo en la creación de aplicaciones web y móviles utilizando una amplia variedad de herramientas y tecnologías, incluyendo React, Vue, Express, Django, MySQL y MongoDB. Soy capaz de adaptarme rápidamente a nuevas tecnologías y siempre estoy buscando nuevos desafíos para mejorar mis habilidades técnicas y de resolución de problemas. Estoy comprometido con el éxito de cada proyecto y trabajo en estrecha colaboración con mis clientes para cumplir con sus necesidades y objetivos. Actualmente, me estoy enfocando en el aprendizaje del desarrollo mobile y el backend.',
+      'I specialize in creating web and mobile applications using a wide variety of tools and technologies, including React, Vue, Express, Django, MySQL, and MongoDB. I am able to quickly adapt to new technologies and am always looking for new challenges to improve my technical and problem-solving skills. I am committed to the success of each project and work closely with my clients to meet their needs and objectives. Currently, I am focusing on learning mobile development and backend to enhance my experience and skills.',
+      'Me especializo en la creación de aplicaciones web y móviles utilizando una amplia variedad de herramientas y tecnologías, incluyendo React, Vue, Express, Django, MySQL y MongoDB. Soy capaz de adaptarme rápidamente a nuevas tecnologías y siempre estoy buscando nuevos desafíos para mejorar mis habilidades técnicas y de resolución de problemas. Estoy comprometido con el éxito de cada proyecto y trabajo en estrecha colaboración con mis clientes para cumplir con sus necesidades y objetivos. Actualmente, me estoy enfocando en el aprendizaje del desarrollo mobile y el backend.',
     ],
-    from: 2022,
-    to: 2023,
+    time: '1-2 years'
   },
   {
     title: 'Merchant company',
